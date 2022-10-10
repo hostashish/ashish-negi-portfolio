@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.selector-for-some-widget {
+    box-sizing: content-box;
+  }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+  .main-header {
+    height: 697px;
+    background: linear-gradient(90deg, #FCCA2E 50%, #0C0023 50%);
+  }
+
+  svg.bi.bi-phone-fill {
+    fill: #FCCA2E;
+}
+
+.about-section{
+    background: #000000;
+}
+
+span.about-heading-text-one {
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFFFFF;
+}
+
+span.about-heading-text-two, .about-heading-text-three {
+    font-weight: 500;
+    font-size: 50px;
+    color: #FCCA2E;
+}
+
+h3.about-sub-heading.text-white {
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+p.about-content {
+    font-weight: 400;
+    color: #FFFFFF;
+}
