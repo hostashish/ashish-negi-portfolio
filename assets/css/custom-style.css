@@ -129,5 +129,33 @@ span.myportfolio-text-two {
 }
 
 .contact-me-section{
-    background: #000000;
+    background: #090118;
+}
+
+span.contact-text-one {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #ffffff;
+}
+
+span.contact-text-two {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FCCA2E;
+}
+
+footer.footer-content {
+    background-image: linear-gradient(#0c0023, #0c0023d1), url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+label.form-label {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
 }
