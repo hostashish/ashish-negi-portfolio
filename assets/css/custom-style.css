@@ -9,17 +9,21 @@ body{
     font-size: 16px;
 }
 
-  .main-header {
-    height: 697px;
-    background: linear-gradient(90deg, #FCCA2E 50%, #0C0023 50%);
+.main-header {
+    /* background: linear-gradient(90deg, #FCCA2E 50%, #0C0023 50%); */
+    background: #0C0023;
+    /* background-image: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('../images/code-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; */
   }
 
   svg.bi.bi-phone-fill {
-    fill: #FCCA2E;
+    fill: #000000;
 }
 
 .about-section{
-    background: #000000;
+    background: linear-gradient(180deg, #000000 50%, #0C0023 50%);
 }
 
 span.about-heading-text-one {
@@ -43,4 +47,87 @@ h3.about-sub-heading.text-white {
 p.about-content {
     font-weight: 400;
     color: #FFFFFF;
+}
+
+span.watch-video {
+    color: #FCCA2E;
+}
+
+img.img-fluid.skills-icons {
+    width: 108.14px;
+    height: 108.14px;
+}
+
+.skills{
+    /* width: 33.3%; */
+    height: 400px;
+    background: #0F012C;
+}
+
+.position-absolute.skills-content {
+    top: 5rem;
+    left: 2rem;
+}
+
+h3.skill-heading {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FCCA2E;
+}
+
+p.skill-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+button.btn.btn-skill {
+    width: 9rem;
+    height: 3rem;
+    background: #FCCA2E;
+    border-radius: 0px;
+}
+
+h2.freelance-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    text-align: center;
+    color: #0C0023;
+}
+
+p.freelance-description {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    color: #0C0023;
+}
+
+section.my-portfolio-section {
+    background: #090118;
+}
+
+span.myportfolio-text-one {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+span.myportfolio-text-two {
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 59px;
+    color: #FCCA2E;
+}
+
+.contact-me-section{
+    background: #000000;
 }
